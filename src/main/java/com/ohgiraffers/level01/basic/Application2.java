@@ -12,7 +12,15 @@ public class Application2 {
 		 * 면적 : 455.0
 		 * 둘레 : 97.8
 		 *  */
-		
+
+		float width = 12.5f;
+		float height = 36.4f;
+
+		float area = width * height;
+		float round = width * 2 + height * 2;
+
+		System.out.printf("면적 : " + "%.1f\n", area);
+		System.out.println("둘레 : " + round);
 	}
 
 }
