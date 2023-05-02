@@ -22,7 +22,6 @@ public class Application1 {
 		System.out.println("곱하기 결과 : " + (num1 * num2));
 		System.out.println("나누기한 몫 : " + (num1 / num2));
 		System.out.println("나누기한 나머지 : " + (num1 % num2));
-
 	}
 
 }
